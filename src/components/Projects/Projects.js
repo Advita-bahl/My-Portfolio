@@ -40,7 +40,7 @@ function Projects() {
               title="Jan-Arogya Connect"
               description="Designed and implemented a solution that streamlined OPD queues, bed management, and patient admissions, integrating multiple hospital functions into a single system."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://jan-arogya-connect.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
