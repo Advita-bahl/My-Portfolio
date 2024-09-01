@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import me from "../Home/me.png"
+import me from "../Images/me.png";
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -14,9 +14,9 @@ function About() {
     <Container fluid className="about-section">
       {/* <Particle /> */}
       <Container>
-      <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-             <strong className="purple"> Experience </strong>
-            </h1>
+        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+          <strong className="purple"> Experience </strong>
+        </h1>
         <Row style={{ justifyContent: "center", padding: "0px" }}>
           <Col
             md={7}
@@ -26,7 +26,6 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            
             <Aboutcard />
           </Col>
           <Col
@@ -34,7 +33,7 @@ function About() {
             style={{ paddingTop: "30px", paddingBottom: "50px" }}
             className="about-img"
           >
-             <Tilt className="meimg">
+            <Tilt className="meimg">
               <img src={me} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
